@@ -8,7 +8,7 @@
 
 const int analogInPin = A1;  // Analog input pin that the potentiometer is attached to
 
-byte ctrlmot=0; // variable que se escribirá en la salida PWM.
+byte ctrlmot=0; 
 
 int sensorValue = 0;        // value read from the pot
 int x1 = 0, x2 = 0, x3 = 0, x4 = 0, x5 = 0 , x6 = 0, x7 = 0, x8 = 0;
