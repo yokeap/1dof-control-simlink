@@ -32,7 +32,7 @@ void loop() {
     analogWrite(3, ctrlmot);                  // sets the servo position according to the scaled value
     
   }
-  delay(50);
+  delay(10);
 }
 
 unsigned int low_pass_filter()
